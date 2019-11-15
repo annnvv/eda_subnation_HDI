@@ -1,4 +1,4 @@
-# Exploratory Data Analysis: Mozambique's Subnational HDI Data (1190-2017)
+# Exploratory Data Analysis: Mozambique's Subnational HDI Data (1990-2017)
 
 Using subnational HDI data from the Global Data Lab and the ggplot2 and gghighlight packages in R, I create the chart below. The data indicate that Maputo City and Province have the the highest Human Development Index scores compared to the other nine provinces and have historically been higher than the other provinces. 
 
