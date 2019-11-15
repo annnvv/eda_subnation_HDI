@@ -18,4 +18,6 @@
     geom_line(aes(year, HDI) , data = moz_long[moz_long$Region == "Country", ], colour = "black", size = 0.75) +
     annotate("text", x = 2011.5, y = 0.02, label = "Note: National HDI is in bolded black")
   
+  ggsave(paste0(proj_path, "/static/MOZ_HDI.png"))
+  
   # need to fix the fact that labels cover last few years of data when use_direct_label = TRUE
