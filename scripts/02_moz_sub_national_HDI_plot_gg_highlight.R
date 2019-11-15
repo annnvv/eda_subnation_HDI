@@ -2,7 +2,7 @@
   library(gghighlight)
   
   # read in cleaned data
-  moz <- read.csv(paste0(proj_path, "/data/GDL-Sub-national-HDI-data.csv"), 
+  moz_long <- read.csv(paste0(proj_path, "/data/GDL-Sub-national-HDI-data.csv"), 
                   stringsAsFactors = FALSE)
 
  # plot the data
