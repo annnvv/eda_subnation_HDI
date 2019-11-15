@@ -30,4 +30,4 @@
   moz_long$year <- as.numeric(gsub("y_", "", moz_long$year))
 
   # save cleaned data
-  write.csv(moz_long, paste0(getwd(), "/data/moz_long_HDI.csv"), row.names = FALSE)
+  write.csv(moz_long, paste0(proj_path, "/data/moz_long_HDI.csv"), row.names = FALSE)
